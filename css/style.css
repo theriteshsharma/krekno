@@ -1,0 +1,148 @@
+:root{
+    --base: #fff;
+    --light: #F8F8FF;
+    --dark: #161C2D;
+    --primary:#473BF0;
+    --black-9: #999;
+    --black-6: #666;
+    --black-3: #333;
+}
+
+*{
+    font-family: 'roboto'
+}
+
+body{
+    font-size: 16px;
+}
+
+.btn-primary{
+    background-color: var(--dark);
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right:25px;
+    font-weight:bold;
+}
+.nav{
+    min-height: 54px;
+    padding: 1rem;
+}
+h1{
+    font-size: 2.25rem;  /*36*/
+}
+h2, .h2{
+    font-size: 3rem; /*48*/
+}
+
+h3{
+    font-size:1.75rem;/*28*/
+}
+ h4{
+    font-size: 1.5rem; /*24*/
+ }
+ h5{
+    font-size:1.25rem;/*20*/
+ }
+
+ section h1{
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+    font-weight: bold;
+ }
+.bg-light{
+    background-color: var(--light) !important;
+}
+.bg-dark{
+    background-color: var(--dark) !important;
+    color: var(--base);
+}
+.highlight{
+    color: var(--primary);
+    font-weight: bold;
+}
+.hero{
+    padding:120px 0px
+}
+.mt-40{
+    margin-top: 2.5rem;
+}
+.strip{
+    padding: 2rem;
+}
+.strip b{
+    font-size:2.25rem;
+}
+
+.titles{
+    margin-top:90px;
+    margin-bottom:40px;
+}
+.why-choose-us{
+    margin-top:50px;
+    margin-bottom:40px;
+}
+
+.card{
+    border-radius: 1rem;
+}
+
+.services h4{
+    margin:0;
+}
+
+.services .card{
+    border-radius: 0.25rem;
+}
+
+.service-description{
+    padding:2.25rem;
+    background-color:#EAEAFF
+}
+.service-description .pill{
+    background-color: var(--light);  
+    padding: 1rem;  
+}
+
+.testimonies .card{
+    padding: 3rem 1.25rem 1rem 1.25rem;
+    border: none
+}
+
+.about .card{
+    padding: 1rem 1.5rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+.about .pill{
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+}
+
+.faq .card{
+    border: none;
+    border-radius: 0.25rem;
+    padding: 1rem 1.5rem;
+}
+.faq h5{
+    margin:0;
+}
+.accordian{
+    margin-bottom:0.5rem;
+}
+.accordian-content-desc{
+    max-height: 0;
+    overflow: hidden;
+    margin:0;
+    transition: max-height 0.25s ease-out;
+}
+
+.is-open .accordian-content-desc{
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
+}
+
+.is-open .accordian-icon{
+    transform: rotateX(180deg)
+}
