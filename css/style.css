@@ -102,7 +102,9 @@ h3{
 }
 .service-description .pill{
     background-color: var(--light);  
-    padding: 1rem;  
+    /* padding: 1rem;   */
+    height: 3rem;
+    width: 3rem;
 }
 
 .testimonies .card{
@@ -145,4 +147,9 @@ h3{
 
 .is-open .accordian-icon{
     transform: rotateX(180deg)
+}
+
+
+.corner-align{
+    height: 2rem;width: 2rem; top: -1rem; left: -1rem; position: absolute; background-color: #473BF0; color: white;
 }
